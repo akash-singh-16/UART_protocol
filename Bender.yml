@@ -1,0 +1,17 @@
+package:
+  name: uart_protocol
+  description: "UART transmitter and receiver"
+  authors:
+    - "Akash Singh"
+
+sources:
+  - tb.sv
+  - uart_top.sv
+  - uartrx.sv
+  - uarttx.sv
+  
+  - target: simulation
+    files:
+      - uart_top.sv
+      - uart_top.sv
+
